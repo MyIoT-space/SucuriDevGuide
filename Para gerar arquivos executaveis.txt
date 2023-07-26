@@ -1,0 +1,11 @@
+Para gerar arquivos executaveis:
+
+1) Entre na pasta VEMV, dentro de documents
+
+2) rode o comando .\Scripts\activate
+
+3) pyinstaller -F -w --icon="C:\Users\luis_\Documents\Modelix\dashboard\novo_logo_dashboard.ico" --add-data "C:\Users\luis_\Documents\Modelix\sucuri\arquivos\ClassMP.py;." --add-data "C:\Users\luis_\Documents\Modelix\sucuri\arquivos\ClassBoardManager.py;." "C:\Users\luis_\Documents\Modelix\sucuri\arquivos\Sucuri.py"
+
+pyinstaller -F -w --icon="C:\Users\luis_\Documents\Modelix\dashboard\novo_logo_dashboard.ico" "C:\Users\luis_\Documents\Modelix\login\login-program\Pacote_MyIoT_Jupyter_SemMarcaCompleto\Login.py"
+
+# pyinstaller -F -w --add-data "C:\Users\luis_\Documents\Modelix\Sucuri_MicroPython_flasher\esptool.exe;." --add-data "C:\Users\luis_\Documents\Modelix\Sucuri_MicroPython_flasher\libusb0.dll;." --add-data "C:\Users\luis_\Documents\Modelix\login\login-program\Pacote_MyIoT_Jupyter_SemMarcaCompleto\LOGO.ico;."  --add-data "C:\Users\luis_\Documents\Modelix\Sucuri_MicroPython_flasher\ESP32_MicroPython;." --add-data "C:\Users\luis_\Documents\Modelix\Sucuri_MicroPython_flasher\ESP12_MicroPython;." --add-data "C:\Users\luis_\Documents\Modelix\Sucuri_MicroPython_flasher\ssd1306.txt;." --add-data "C:\Users\luis_\Documents\Modelix\Sucuri_MicroPython_flasher\ultrassonico.txt;." --add-data "C:\Users\luis_\Documents\Modelix\Sucuri_MicroPython_flasher\matriz_led.txt;." --icon="C:\Users\luis_\Documents\Modelix\login\login-program\Pacote_MyIoT_Jupyter_SemMarcaCompleto\LOGO.ico" "C:\Users\luis_\Documents\Modelix\Sucuri_MicroPython_flasher\Flasher-MicroPython.py"
