@@ -21,6 +21,7 @@ PyQt5-Qt5==5.15.2
 PyQt5-sip==12.12.1
 pyserial==3.5
 pywin32-ctypes==0.2.0
+pywin32
 PyYAML==6.0
 reedsolo==1.7.0
 requests==2.31.0
